@@ -1,19 +1,5 @@
 <md-toolbar>
-	<p onclick="{ onClick }">Hallo hallo!</p>
-
-	<script>
-		console.log('before `mount` event: ', this.root);
-
-		onClick(e) {
-			alert('clicked!');
-		}
-
-		this.on('mount', function () {
-			console.log('mounted');
-		}.bind(this));
-	</script>
-
-	<style scoped>
-		@import "md-toolbar.sass";
-	</style>
+	<div class="md-toolbar theme--{ opts.theme || 'primary' } md-shadow--{ opts.depth || 0 }">
+		<yield />
+	</div>
 </md-toolbar>
