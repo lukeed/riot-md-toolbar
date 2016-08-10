@@ -32,7 +32,7 @@ Apply value as a class to the element, prepended with `theme--`; eg: `theme--pri
 #### depth
 
 Type: `string`<br>
-Required: `string`<br>
+Required: `false`<br>
 Default: `0`
 
 Applies a shadow depth class using [md-shadows](https://github.com/lukeed/md-shadows). By default, `md-shadow--0` is added to the toolbar, which renders **no** shadow.
