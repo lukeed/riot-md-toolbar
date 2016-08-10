@@ -1,36 +1,41 @@
-# md-toolbar
+# riot-md-toolbar
 
-> Material Design toolbar component for Riot.js.
+> Material Design toolbar component for [Riot.js](https://github.com/riot/riot).
 
 
 ## Install
 
 ```
-$ bower install --save md-toolbar
+$ bower install --save riot-md-toolbar
 ```
 
 
 ## Usage
 
-```js
-<md-toolbar prop="{ test }"></md-toolbar>
+```html
+<md-toolbar theme="inverse" depth="1">
+  <!-- content -->
+</md-toolbar>
 ```
 
 
 ## Options
 
-#### attr1
+#### theme
 
-Type: `string`
+Type: `string`<br>
+Required: `false`<br>
+Default: `primary`
 
-Lorem ipsum.
+Apply value as a class to the element, prepended with `theme--`; eg: `theme--primary`.
 
-#### attr2
+#### depth
 
-Type: `boolean`<br>
-Default: `false`
+Type: `string`<br>
+Required: `string`<br>
+Default: `0`
 
-Lorem ipsum.
+Applies a shadow depth class using [md-shadows](https://github.com/lukeed/md-shadows). By default, `md-shadow--0` is added to the toolbar, which renders **no** shadow.
 
 
 ## License
