@@ -1,6 +1,15 @@
+/**
+ * Toolbar styles
+ */
 
+$base-unit : 8px !default
+$toolbar-height : 8 * $base-unit
+$toolbar-font-size : 20px
 
-$text-color : #003366
-
-:scope p
-  color: $text-color
+.md-toolbar
+	display: block
+	position: relative
+	font-size: $toolbar-font-size
+	min-height: $toolbar-height
+	width: 100%
+	z-index: 2
