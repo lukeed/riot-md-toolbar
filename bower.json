@@ -1,15 +1,19 @@
 {
-  "name": "md-toolbar",
-  "version": "0.0.0",
-  "description": "Material Design toolbar component for Riot.js.", 
-  "authors": [
-    {"name": "Luke Edwards", "email": "luke@lukeed.com", "homepage": "https://github.com/lukeed"}
-  ],
+  "name": "riot-md-toolbar",
+  "description": "Material Design toolbar component for Riot.js.",
+  "authors": [{
+  	"name": "Luke Edwards",
+  	"email": "luke@lukeed.com",
+  	"homepage": "https://github.com/lukeed"
+  }],
   "keywords": [
     "riot",
     "riotjs",
+    "riot-md",
     "riot-tag",
-    "md-toolbar"
+    "md-toolbar",
+    "toolbar",
+    "material design"
   ],
   "main": "md-toolbar.tag",
   "moduleType": [
@@ -25,8 +29,7 @@
     "tests"
   ],
   "dependencies": {
-    "riot": "^2.3.0"
-  },
-  "devDependencies": {
+    "riot": "^2.5.0",
+    "md-shadows": "^1.0.0"
   }
 }
