@@ -9,6 +9,7 @@
 $ bower install --save riot-md-toolbar
 ```
 
+**Note:** You must also install [riot-md-mixin-flex](https://github.com/lukeed/riot-md-mixin-flex)!
 
 ## Usage
 
